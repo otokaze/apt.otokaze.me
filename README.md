@@ -1,5 +1,6 @@
 # apt.otokaze.me
 Otokaze 个人源（iPhone XS Max; iOS13.7; A12）
+> You can add repo https://apt.otokaze.me to your Cydia or Sileo.
 
 ## 使用说明
 1. debjson（用于生成deb包的json描述）
