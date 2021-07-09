@@ -346,23 +346,24 @@ Name: DockX 简体中文修补包
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.dockxzhcn.deb.json
 
 Package: me.otokaze.doutu
-Version: 2.1-8.1
+Version: 3.0-0
 Architecture: iphoneos-arm
-Maintainer: Otokaze <i@otokaze.me>
+Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/me.otokaze.doutu.deb
-Size: 152232
-MD5sum: e6cfa9c8263d13b9da201bc3cd936691
-SHA1: edca0c3ad617faa0506a729227b1eb8cf29054b5
-SHA256: 6cab4a833073bd7c23787b0606158c16cf545a6311b34c1195e6ed0dc74ae66f
-Section: 微信插件
+Size: 152356
+MD5sum: 671ea0aa2c297a82fc8f36b5a35bdfa8
+SHA1: 9381bc09fc9d349b968d52190e4d0120e6dc9c55
+SHA256: 63b193bca2f611fe5044c12737e9b7c414ba36db935e438910fa2e023580f392
+Section: Tweaks
 Priority: optional
-Description: 微信斗图助手
-Author: mao
+Description: 微信斗图助手-老猫
+Author: Mao
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.doutu
 Icon: https://apt.wxhbts.com/icon/%E5%BE%AE%E4%BF%A1%E6%8F%92%E4%BB%B6.png
-Name: 微信斗图助手
+Name: 微信斗图助手-老猫
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.doutu.deb.json
+Sponsor: admin@25mao.com
 
 Package: me.otokaze.electricfilza222
 Version: 3.7.4-12
