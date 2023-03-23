@@ -1,0 +1,890 @@
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist.deb
+Size: 105404
+MD5sum: cdfc9c0615ebdc2ecebaa6e5867c05b1
+SHA1: bcb55eb9cd7d26028ec9699a25849e17f16d92bf
+SHA256: bcb02b279053a5cdbd6f1a18dd79c99613689f6090ddef627d61f6df6f9e821d
+Section: 插件依赖
+Description: 允许扩展读取已安装的软件列表
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=applist
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: AppList
+Sileodepiction: https://apt.otokaze.me/debs/applist.deb.json
+
+Package: com.34306.3dtools
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 2212
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.34306.3dtools.deb
+Size: 1146912
+MD5sum: 70007d15347b84877cf34824f72d612e
+SHA1: 9b495d1623ba15b5c9acb9bfb878acacf3e69853
+SHA256: 69e8f242a7847c9bae099beb8b0f1cd81f457c40d4a774bbc4ae41a8a20652be
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: 34306
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.34306.3dtools
+Name: 3DTools
+Sileodepiction: https://apt.otokaze.me/debs/com.34306.3dtools.deb.json
+
+Package: com.gamegod.igg
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: iGameGod
+Installed-Size: 306976
+Depends: applist, mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Filename: ./debs/com.gamegod.igg.deb
+Size: 87221872
+MD5sum: 0bc2504a1c7a75871f058c50b62a0c32
+SHA1: 452e645e9f82be240380072e2d34e6f39da2345c
+SHA256: 2227cf676648c16016347f255f42282ad1ba10cf9df24c84682abbb49212bd80
+Section: 游戏工具
+Description: Be the god of your games. Find and edit scores, money, gems, and more in your favorite games.
+Author: iGameGod
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.gamegod.igg
+Name: iGameGod 游戏修改器
+Sileodepiction: https://apt.otokaze.me/debs/com.gamegod.igg.deb.json
+
+Package: com.greg0109.quiet
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.greg0109.quiet.deb
+Size: 5136
+MD5sum: c7ec1630946a458e50f4bab287f48f4d
+SHA1: 4c2ed2bf55607aa0d6f356782167d55640c5b7bf
+SHA256: 35b5a131894720397a75bb61a27e922bf0e84e354e090af2ca63404fce8116a9
+Section: Tweaks
+Description: Silence notifications from 3D touch menu!
+Author: Greg0109
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.greg0109.quiet
+Name: Quiet
+Sileodepiction: https://apt.otokaze.me/debs/com.greg0109.quiet.deb.json
+
+Package: com.muirey03.libmryipc
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/com.muirey03.libmryipc.deb
+Size: 27328
+MD5sum: 74012578b079de7a408596b3f9705747
+SHA1: 44bb448f1247686ff25a9dc47c1c192bcc88875d
+SHA256: 682701db0ff8db0ea52cc590adbe9cea6cefc5aaa76446ae902733c527262697
+Section: 插件依赖
+Description: Easy to use, RocketBootstrap-lessiOSIPC
+Author: Muirey03
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.muirey03.libmryipc
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: libMRYIPC
+Sileodepiction: https://apt.otokaze.me/debs/com.muirey03.libmryipc.deb.json
+
+Package: com.opa334.ccsupport
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 356
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport.deb
+Size: 56772
+MD5sum: a23190c9d13f4b6c4a896acc92617ea6
+SHA1: c1245b947d468e0c0d5900bf1a4ce0d09cbfa1e5
+SHA256: c0b16b5045cfa3f03001642e9e193bb5d073619df1f6604be0de9f4628ce4300
+Section: Tweaks
+Description: Support tweak for CC modules!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.opa334.ccsupport
+Dev: opa334
+Name: CCSupport
+Sileodepiction: https://apt.otokaze.me/debs/com.opa334.ccsupport.deb.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/com.rpetrich.rocketbootstrap.deb
+Size: 38500
+MD5sum: 8d71d05b2f9765e47b48c5b35ae071a4
+SHA1: 0090a86e7c6227bc358e0433485b78c9749aa145
+SHA256: 0f3056b4de0691d13f7571dca7263e64cc267243c11ec33a1d006f17c31dcd3f
+Section: 插件依赖
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Author: Ryan Petrich
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.rpetrich.rocketbootstrap
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: RocketBootstrap
+Sileodepiction: https://apt.otokaze.me/debs/com.rpetrich.rocketbootstrap.deb.json
+
+Package: com.rpgfarm.libaptoast
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 132
+Filename: ./debs/com.rpgfarm.libaptoast.deb
+Size: 7312
+MD5sum: ad6e125f34b5f49ac67345e594718207
+SHA1: 2f7659d2c8ee9999a4acd4a6ffa14e230e2738e5
+SHA256: 497ae8dc0164bb971ad62038c9473f9dd15af12b804511a11aff4faff97312cb
+Section: 插件依赖
+Description: Baw Appie's Toast Library
+Tag: role::developer
+Author: Baw Appie
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.rpgfarm.libaptoast
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: libAPToast
+Sileodepiction: https://apt.otokaze.me/debs/com.rpgfarm.libaptoast.deb.json
+
+Package: com.spark.libsparkapplist
+Version: 1.0.9
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 468
+Filename: ./debs/com.spark.libsparkapplist.deb
+Size: 27236
+MD5sum: 84ce30b5b6db2745a325ac932e250dc7
+SHA1: 3291e833ef44ecbea6b7d5b2de1df3008ef8f983
+SHA256: eff92ce7558f18a6947d4d2df822f9ff8cca5fd392f1ec33674cbe663efcf042
+Section: 插件依赖
+Description: AppList alternative
+Author: Spark
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.spark.libsparkapplist
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: libSparkAppList
+Sileodepiction: https://apt.otokaze.me/debs/com.spark.libsparkapplist.deb.json
+
+Package: com.tr1fecta.backrunner
+Version: 0.1.7
+Architecture: iphoneos-arm
+Maintainer: Anh Duy <kiemphapngami@gmail.con>
+Depends: mobilesubstrate, applist, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.tr1fecta.backrunner.deb
+Size: 9524
+MD5sum: f05730ad6670a38ea0a6744c0d18f51c
+SHA1: 69fe2acaee5e89ce7f9a3cdaca4b921f76966c49
+SHA256: 913aef2863603ee2a55d810fe9f60fc53d960ac9246a7a3450c7226907d59902
+Section: Tweaks
+Description: 指定app在后台运行
+Author: Tr1Fecta <tr1develop7@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.tr1fecta.backrunner
+Name: backrunner
+Sileodepiction: https://apt.otokaze.me/debs/com.tr1fecta.backrunner.deb.json
+
+Package: fun.yfyf.bigbangev
+Version: 5.3.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2312
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap
+Conflicts: fun.yfyf.zbigbangevsupport
+Filename: ./debs/fun.yfyf.bigbangev.deb
+Size: 446732
+MD5sum: 347d8c3e6197a0b9fe5135a0b3441b41
+SHA1: 6a4599853c49da4206e95552ae3943b57b94e4a8
+SHA256: 7a2d9db2e23e2a0277fd1610edc613e4672aaf2768697040a8128f1ccccae098
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bigbangevDp
+Description: A simple BigBang tweak from EVAN!
+Tag: purpose::extension
+Author: EVAN <215288968@qq.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=fun.yfyf.bigbangev
+Dev: yfyf
+Name: BigBangEv
+Sileodepiction: https://apt.otokaze.me/debs/fun.yfyf.bigbangev.deb.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: @_AppleExpert <aplerebornweb@gmail.com>
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction13.deb
+Size: 20394
+MD5sum: a8a74ec4267ef6efb4e154427f3221d4
+SHA1: bce933ce4afeb227e88ce1d19616c58941dc4263
+SHA256: c934bdd594a13d281cb0ffeec144dd9655a577cebd9209e403fb65ae39284224
+Section: Tweaks
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Name: BackgrounderAction2 for CCSupport
+
+Package: jp.akusio.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: @_AppleExpert <aplerebornweb@gmail.com>
+Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+Filename: ./debs/jp.akusio.milkyway2/jp.akusio.milkyway2.deb
+Size: 73090
+MD5sum: 6418bc8d8344c6484843c78e354536cc
+SHA1: 2afef2b2c79128420f5923d6b15de29b8f5196b9
+SHA256: 74c3114fffc7661e8308496a7b279232db3a854dd6b224c016c0c1d3567d445f
+Section: Tweaks
+Description: Multitasking for iOS13.
+Author: akusio <akusio-report@neko2.net>
+Name: MilkyWay2
+
+Package: me.otokaze.3dbadgeclear
+Version: 1.6.8
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 712
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.3dbadgeclear.deb
+Size: 139904
+MD5sum: f942e5cd005419951bc08a5e52907ec8
+SHA1: 3384737ce7f0a07ebdfdcf3b28ce1bf4eab78173
+SHA256: eb0ade441bafa4c873e640ebd9bb1ca041afd927fb803619e03c78119028c6b8
+Section: 常用插件
+Description: 使用Force Touch/3D Touch 菜单 清除角标
+Author: isklikas
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.3dbadgeclear
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: 3DBadgeClear 清理角标
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.3dbadgeclear.deb.json
+
+Package: me.otokaze.a-bypass
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: Baw Appie
+Installed-Size: 844
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Filename: ./debs/me.otokaze.a-bypass.deb
+Size: 97932
+MD5sum: b0f8687633c32f851e56f9f64f5db77d
+SHA1: 818b401e64bd83aed0e30e191f2da060b8966dde
+SHA256: 6460126bc344f97214a918570cc5e695962e9e37bcede7b2110055f40864c7d8
+Section: 常用插件
+Description: 一款强力有效 简单设置的屏蔽越狱插件
+Author: Baw Appie
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.a-bypass
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: A-Bypass 屏蔽越狱
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.a-bypass.deb.json
+
+Package: me.otokaze.adsspee
+Version: 1.0.4-1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: mobilesubstrate, applist
+Filename: ./debs/me.otokaze.adsspee.deb
+Size: 112188
+MD5sum: 16137e8e87807528309811554c6ecb02
+SHA1: 7aea18dbba08cc5dcf801f6b46044685932809c2
+SHA256: 6ec46754bbffee24d760ebee3367d0e19314c1e76954a5fc7c2016379254778c
+Section: 常用插件
+Description: 快速跳过视频广告 奖励正常领取
+Author: lenglengyu
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.adsspee
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: VideoAdsSpeed 快速跳过广告
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.adsspee.deb.json
+
+Package: me.otokaze.appstoreplus
+Version: 0.9.14-2
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap, me.otokaze.appstorepluscn
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/me.otokaze.appstoreplus.deb
+Size: 560756
+MD5sum: 92483759ac65c307ab87540f172692b3
+SHA1: cb3fe46cfe70999880b0871b6363680adf1f3a65
+SHA256: 3454a020ca8bd02eb883e356d3c71fb25fcf1e339641b10293424ea7854a5540
+Section: 常用插件
+Description: App Store应用降级 比AppAdmin更稳定
+Author: CokePokes
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.appstoreplus
+Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: AppStore 降级工具
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.appstoreplus.deb.json
+
+Package: me.otokaze.appstorepluscn
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/me.otokaze.appstorepluscn.deb
+Size: 35644
+MD5sum: 3d92517c7c6c96d2d1f42fcbed7e96a1
+SHA1: 14310c08f85120faec8943fa8bf37c2560b4c4f9
+SHA256: d43fe64464ca8200a5e331371a01503f54e3504aed3d86fe820b48afe8c98533
+Section: 常用插件
+Description: AppStore Plus 简体中文汉化包
+Author: Otokaze <i@otokaze.me>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.appstorepluscn
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: AppStore 简体中文包
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.appstorepluscn.deb.json
+
+Package: me.otokaze.appsyncunified
+Version: 90.0
+Architecture: iphoneos-arm
+Maintainer: Linus Yang
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.5)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/me.otokaze.appsyncunified.deb
+Size: 37784
+MD5sum: 9b93828682352108f97ef71dae9f54e5
+SHA1: 2e8d5a5391c7101ba2ff088d275760b74a00da0f
+SHA256: e71a363710b080d2c24c95c3e7ff465f774f783a2a13192fffb57964fd5b3402
+Section: 常用插件
+Description: 关闭iOS App签名检查 装和谐软件必备
+Author: Linus Yang
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.appsyncunified
+Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: AppSync Unified 关闭签名
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.appsyncunified.deb.json
+
+Package: me.otokaze.audiorecorderxs
+Version: 3.5-74
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 21550
+Depends: mobilesubstrate, preferenceloader, me.otokaze.simpleactivationactions, firmware(>=12.0), me.otokaze.limneosos
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/me.otokaze.audiorecorderxs.deb
+Size: 2754004
+MD5sum: 74c11b3e7f7f8fc94df4c4c460da8020
+SHA1: 4ba4137380c5b022244fbe1f852c5b9e9d7a65aa
+SHA256: 909c29e5b9fdb0addb2eb1e0386a46323afd65936b847da043a4a4557c4efa73
+Section: 破解插件
+Description: iOS圈第一款通话录音软件
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.audiorecorderxs
+Name: AudioRecorder XS 通话录音（破解版）
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.audiorecorderxs.deb.json
+
+Package: me.otokaze.autoanswerx
+Version: 0.2-17
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 738
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), me.otokaze.limneosos
+Filename: ./debs/me.otokaze.autoanswerx.deb
+Size: 142460
+MD5sum: 7deff799403f1ff0e6b88668d1c3e338
+SHA1: dd64087f4d31d88e983031aa865d0e1c4d05078c
+SHA256: 10251c6598f420d61002ffca7eedb6839e4b40f267d09f406f90834536945261
+Section: 破解插件
+Description: 自动电话应答&留言
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.autoanswerx
+Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswerXSettings@2x.png
+Name: AutoAnswer XS 自动应答 (破解版)
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.autoanswerx.deb.json
+
+Package: me.otokaze.autotouch
+Version: 7.0.33k
+Architecture: iphoneos-arm
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
+Conflicts: me.autotouch.autotouch.ios8
+Filename: ./debs/me.otokaze.autotouch/me.otokaze.autotouch.deb
+Size: 31336696
+MD5sum: 0cd92a10aee12659443d1a2acca5c72a
+SHA1: f9c59a4ac98b630dcfb0a4496d6b44814a8d4786
+SHA256: 8489c20a01dd7afdddbd5c48dcba837426646bfccadc611bd648b6bd4317ba76
+Section: 工具
+Priority: optional
+Description: AutoTouch触动精灵破解版,自动录制脚本！
+Author: Kent Krantz
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.autotouch
+Icon: https://apt.otokaze.me/debs/me.otokaze.autotouch/icon.png
+Name: AutoTouch触动精灵【破解版】
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.autotouch/depiction.json
+Sponsor: Otokaze源<http://apt.otokaze.me/>
+
+Package: me.otokaze.banana
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.banana/me.otokaze.banana.deb
+Size: 5544
+MD5sum: d24a81405ed18d27265aa984f6cb4b6b
+SHA1: 3247dc4ada6daa0f2e55bfbce49bc03568f0f99f
+SHA256: f7e89184de2f0d1e3efad5047feb198e4f02defece7fda43a7d57d558fc89986
+Section: 插件
+Description: 当音乐想起自动开启降噪
+Author: LaughingQuoll
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.banana
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Banana 自动降噪
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.banana/depiction.json
+Sponsor: Otokaze源 <http://apt.otokaze.me/>
+
+Package: me.otokaze.bioprotectxs
+Version: 4.4-55
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 2133
+Depends: mobilesubstrate, preferenceloader, me.otokaze.limneosos
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/me.otokaze.bioprotectxs.deb
+Size: 573544
+MD5sum: 9f56dfa820472f37525f202c7fc7a303
+SHA1: 1026833c7703c385671119aa3e9348aa8e0d6f19
+SHA256: 10b1275b06ba8e5df7e465c1081ae5da9a66a1be8f8841a6408f2ea0cb692764
+Section: 破解插件
+Description: 用 FaceID/TouchID 来保护你的 APP
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect XS（破解版）
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.bioprotectxs.deb.json
+
+Package: me.otokaze.callbarxs
+Version: 3.2-143
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 1556
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), me.otokaze.simpleactivationactions, me.otokaze.limneosos
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/me.otokaze.callbarxs.deb
+Size: 276192
+MD5sum: 5f41d951ea0fd6eb0cf96a8a88ceaf9e
+SHA1: 20b1bd34a50eaa60f9e2df2b95237adab6004f80
+SHA256: 22d1359608b8512ac76e8cc8ddc2056bb18206cb27c2f85fc57c84d710fe20cd
+Section: 破解插件
+Description: 来电最小化弹窗
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.callbarxs
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Name: CallBar XS（破解版）
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.callbarxs.deb.json
+
+Package: me.otokaze.disableautomationnotice
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 136
+Depends: mobilesubstrate
+Conflicts: netskao.disableshortcutsnotification
+Filename: ./debs/me.otokaze.disableautomationnotice/me.otokaze.disableautomationnotice.deb
+Size: 6472
+MD5sum: 9869f7a74c9ea3a9c792cb8b2f675c4b
+SHA1: c874b12cddfc0d6127d3b82c2686614d02a97d6e
+SHA256: 32bfc32a456e42a57da596ee6d756899c806d4e4bdbca5fdaa46e27ced6c9e6d
+Section: 插件
+Description: 禁用快捷指令自动化自动执行后的通知
+Author: Netskao
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.disableautomationnotice
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: DisableAutomationNotice 禁用通知
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.disableautomationnotice/depiction.json
+Sponsor: Otokaze源 <http://apt.otokaze.me/>
+
+Package: me.otokaze.dockx
+Version: 2.2.7
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 1368
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), ws.hbang.alderis, me.otokaze.dockxzhcn
+Conflicts: com.cpdigitaldarkroom.barmoji, com.restiveconch.actionbar
+Filename: ./debs/me.otokaze.dockx.deb
+Size: 262532
+MD5sum: 5ed3b804e0d2ba7a11e65ee836ec2996
+SHA1: ba5dcbd215b4944b4f71f2e9e2171b712f7cc850
+SHA256: d1faf8f8dba08bc052c483b68c1a990afd3e3d7720f9f43ac5849af9bfc6553d
+Section: 常用插件
+Description: 键盘底座添加粘贴板快捷方式
+Author: udevs
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.dockx
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: DockX 键盘增强
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.dockx.deb.json
+
+Package: me.otokaze.dockxzhcn
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.dockxzhcn.deb
+Size: 33528
+MD5sum: 08c3d1a7ff7bc45f1510259d814dd545
+SHA1: 0ad21f920a72ba9e14ebc6116b256d7aa67aaa3f
+SHA256: f16ca2c7e07d3f0518c59ca158f646f7406ddf623d6b139d89121230e64460c1
+Section: 常用插件
+Description: DockX 简体中文汉化修补包
+Author: Otokaze <i@otokaze.me>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.dockxzhcn
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: DockX 简体中文修补包
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.dockxzhcn.deb.json
+
+Package: me.otokaze.doutu
+Version: 3.0-0
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/me.otokaze.doutu.deb
+Size: 152356
+MD5sum: 671ea0aa2c297a82fc8f36b5a35bdfa8
+SHA1: 9381bc09fc9d349b968d52190e4d0120e6dc9c55
+SHA256: 63b193bca2f611fe5044c12737e9b7c414ba36db935e438910fa2e023580f392
+Section: Tweaks
+Priority: optional
+Description: 微信斗图助手-老猫
+Author: Mao
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.doutu
+Icon: https://apt.wxhbts.com/icon/%E5%BE%AE%E4%BF%A1%E6%8F%92%E4%BB%B6.png
+Name: 微信斗图助手-老猫
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.doutu.deb.json
+Sponsor: admin@25mao.com
+
+Package: me.otokaze.dumpdecrypter
+Version: 1.3-5.1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 2992
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/me.otokaze.dumpdecrypter/me.otokaze.dumpdecrypter.deb
+Size: 975648
+MD5sum: 630eb464f5799b61131c404d80fdd6f5
+SHA1: 0e7ab152bcdd280c03e3d2a4366c754a51dabd19
+SHA256: 12730c47a0546e1b02067dac6466afb54842e960392ab29e47998f50556c8635
+Section: 工具
+Description: DumpDecrypter是基于dumpdecrypted的修改封装
+Author: Netskao
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.dumpdecrypter
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Name: DumpDecrypter砸壳工具
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.dumpdecrypter/depiction.json
+Sponsor: Otokaze源 <https://apt.otokaze.me/>
+
+Package: me.otokaze.electricfilza222
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 21232
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/me.otokaze.electricfilza222.deb
+Size: 9561156
+MD5sum: a152e9ea3bb23763e29693c47f724a87
+SHA1: 93f6258535073936789368631f8255eb69182652
+SHA256: bc50fb6ac0a7fb6f9eff223c584fc4c14aae29dc3ddea74ee10abc59eb1103ec
+Section: 常用插件
+Description: 功能强大的文件管理软件
+Author: TIGI Software
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.electricfilza222
+Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: Filza File 文件管理器（破解版）
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.electricfilza222.deb.json
+
+Package: me.otokaze.flex3
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 57210
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap (>= 1.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog, com.wxhbts.flex3beta
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog, com.wxhbts.flex3beta
+Filename: ./debs/me.otokaze.flex3.deb
+Size: 15158408
+MD5sum: e7f17188307e5c3d1d3d4164defaba3c
+SHA1: 879137431b3b1fd34f45d2f0cc96d7a89332c566
+SHA256: e437a6d8e482747d1bd2775576bccd8e07b72430556c6222912a32d34db383f6
+Section: 常用插件
+Description: 简单实用的图形程序编辑器
+Author: John Coates <john@johncoates.me>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.flex3
+Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: Flex 3 程序修改器
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.flex3.deb.json
+
+Package: me.otokaze.ibreak.wecallkit
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.ibreak.wecallkit.deb
+Size: 4860
+MD5sum: 3a294cab5be9c36722e16232abe519c4
+SHA1: 312dc20ea4b2917138229ce110ecabcda44e21d7
+SHA256: d7029a051551e1051410ebc9a013491fec4d7eb535f6c5b09a12bb6e09f46469
+Section: 微信插件
+Description: 开启微信 Callkit 通话功能
+Author: iBreak
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.ibreak.wecallkit
+Icon: https://apt.wxhbts.com/icon/%E5%BE%AE%E4%BF%A1%E6%8F%92%E4%BB%B6.png
+Name: 微信 Callkit 通话功能
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.ibreak.wecallkit.deb.json
+
+Package: me.otokaze.icleanerpro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Maintainer: Otokaze源 <i@otokaze.me>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/me.otokaze.icleanerpro/me.otokaze.icleanerpro.deb
+Size: 2929580
+MD5sum: cfef93993e3c41404b06d927b0780405
+SHA1: fe043418ae244c381191a8339c2a1697d4f31faf
+SHA256: 7d328d2968fc3f5e067551f3f4ea2b93065da9a6d736ba81cb8970d71e7b220e
+Section: 工具
+Description: iOS系统 垃圾清理 & 插件管理 工具
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.icleanerpro
+Icon: https://apt.otokaze.me/debs/me.otokaze.icleanerpro/icon.png
+Name: iCleaner Pro 系统清理【破解版】
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.icleanerpro/depiction.json
+Sponsor: Otokaze源 <https://apt.otokaze.me/>
+
+Package: me.otokaze.killxpro
+Version: 2.1.2
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 848
+Depends: mobilesubstrate, applist, ws.hbang.common (>= 1.13), firmware (>= 11.0)
+Conflicts: com.cemck.killx
+Filename: ./debs/me.otokaze.killxpro.deb
+Size: 170496
+MD5sum: 3f741fa32e57dca075ffa656f019e27e
+SHA1: bc79362085e973714f8943f836f2de49c6b1d7de
+SHA256: 3b4ee8cfe1ce52f7f9534198cd4dd922186a91fa809cce462f08e18c63e3ff1f
+Section: 常用插件
+Description: 开启下拉应用卡片关闭所有后台
+Author: cemck
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.killxpro
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: KillX Pro后台清理
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.killxpro.deb.json
+
+Package: me.otokaze.limneosos
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: mobilesubstrate
+Conflicts: github.io.gfp.limneosos, ru.rejail.limneosos, netskao.limneoscrack, com.cydiabc.limneoshelper
+Filename: ./debs/me.otokaze.limneosos.deb
+Size: 24380
+MD5sum: ee9c48ec377100e8bb5b0a3a73009ae5
+SHA1: ca3d6bfe085e679c3e9243f5e64ff74c8f78f945
+SHA256: 0a6c508aaee35d6e29c22b00656bc92b41263c1378050ce050103e39fba63af2
+Section: 插件依赖
+Priority: optional
+Description: Limneos系插件通用破解方案
+Autheor: rejail
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.limneosos
+Name: Elias Limneos
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.limneosos.deb.json
+
+Package: me.otokaze.localiapstore13
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.localiapstore13.deb
+Size: 2896
+MD5sum: 4d1bcfd31a0c996d9031e6d70315f5e6
+SHA1: fba2d477803b5a59b7b80c252ab549bafa4c9100
+SHA256: 74a2c8c0e814be1784466c3e6d816d489632e89cf22568d238df9eccd17b1e97
+Section: 常用插件
+Description: 用于创建本地购买证书 破解内购
+Author: pxcex
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.localiapstore13
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: LocalIAPStore13 内购破解
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.localiapstore13.deb.json
+
+Package: me.otokaze.lockapps
+Version: 2.0-3
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 1084
+Depends: mobilesubstrate, co.azozzalfiras.azflibrary, com.spark.libsparkapplist, ws.hbang.common
+Filename: ./debs/me.otokaze.lockapps.deb
+Size: 493920
+MD5sum: 2b99b72f9eb38380b427bbaef30b374a
+SHA1: ebd5b19f89f8eac73d9e9d063b7452504228e8f0
+SHA256: dc6c0c3ad71341dcd7b0e2acf2c32c9c6f64ad4f49313c8dcfb60cdd3f56934f
+Section: 常用插件
+Description: 通过 Face id & Touch id 锁定您的应用程序
+Author: Azozz ALFiras
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.lockapps
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: LockApps 应用锁
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.lockapps.deb.json
+
+Package: me.otokaze.nomohook
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/me.otokaze.nomohook/me.otokaze.nomohook.deb
+Size: 22756
+MD5sum: 8d5c42d0d7bb8c0ee28ec518cc2dd756
+SHA1: 3cdeccd477e353bf6656739b4eb47508eda742d9
+SHA256: f733db2f79f748ef2f18deb537dd972e2c52e7668b4540f0bb493b7a558d3187
+Section: 插件
+Priority: optional
+Description: NOMO相机，解锁所有Pro素材。适用于目前最新版
+Author: 土拨鼠
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.nomohook
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: NOMO相机+【解锁收费素材】
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.nomohook/depiction.json
+Sponsor: Otokaze源 <http://apt.otokaze.me/>
+
+Package: me.otokaze.otadisabler
+Version: 0.1-9
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 204
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debs/me.otokaze.otadisabler.deb
+Size: 10311804
+MD5sum: 8d07276f92aa07daaca4bc7cd5c6f4e4
+SHA1: 91c46e79c3d923fc5fb2879fecad2b24f394cf58
+SHA256: 78f0917fadd581bcaf93a371beb7de1a4da2383b7ab90c51dfdb326009548393
+Section: 常用插件
+Description: 可以有效的屏蔽系统更新
+Author: ichitaso
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.otadisabler
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: OTADisabler 屏蔽更新
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.otadisabler.deb.json
+
+Package: me.otokaze.simpleactivationactions
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: ./debs/me.otokaze.simpleactivationactions.deb
+Size: 5968
+MD5sum: b78b8a524a03a079f3eb470cdaa7e22c
+SHA1: d3a034183b4e21bd4cda3a3d6ed3e723317a21be
+SHA256: a024c9373042abb90994c46ecd63017469733988e5faf1e03a03b507dfa84c64
+Section: 插件依赖
+Description: Handles StatusBar actions for simple activation events
+Author: Elias Limneos <i@otokaze.me>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.simpleactivationactions
+Name: SimpleActivationActions
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.simpleactivationactions.deb.json
+
+Package: me.otokaze.storeswitcher2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/me.otokaze.storeswitcher2.deb
+Size: 21392
+MD5sum: aea96fe22aabf397e0834b80bb01872d
+SHA1: 4edb61398b901d8247737e5913b464d0f506fb56
+SHA256: 4900c431e9988190d9d6da351da324e2c3a9e39527958134f824aa2e1a2f6e86
+Section: 常用插件
+Description: App Store帐户页面中快速切换帐户
+Author: subdiox
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.storeswitcher2
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: StoreSwitcher 2 账号切换
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.storeswitcher2.deb.json
+
+Package: me.otokaze.telegramunlock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 132
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.telegramunlock/me.otokaze.telegramunlock.deb
+Size: 7448
+MD5sum: a94a63551f2b46d4e418fd67c3e5af00
+SHA1: a894e37ca8aa72bc1f3d5a3cb573de2b9102795f
+SHA256: 82c61d46e92b7e1deb5e54319133bd4f432b21fa2e5a660efcbc966a5295ebe2
+Section: 插件
+Description: Telegram和TelegramX解锁被封禁群，支持最新版
+Author: Netskao
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.telegramunlock
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: Telegram Unlock 解锁封禁群
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
+Sponsor: Otokaze源 <https://apt.otokaze.me/>
+
+Package: preferenceloader
+Version: 2.2.5
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader.deb
+Size: 33224
+MD5sum: 6a866bc7efa9950f1e3d22a2c24938fd
+SHA1: 5e0056ee9c9ee7e0b30dcbe76d38bfda50c14476
+SHA256: 4fe129b3bfb602fe564ae8ab75453e3535d41e1f13b1cfce78eca362707b9a6b
+Section: 插件依赖
+Description: 设置里面显示插件组件PreferenceLoader
+Author: Dustin Howett
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=preferenceloader
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: PreferenceLoader
+Sileodepiction: https://apt.otokaze.me/debs/preferenceloader.deb.json
+
+Package: ws.hbang.alderis
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 2172
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 1.6.7), me.nepeta.libcolorpicker (= 1.6.2-3)
+Filename: ./debs/ws.hbang.alderis.deb
+Size: 492268
+MD5sum: 0351e28287fb7d990b22bfab5f3b35db
+SHA1: 1d7c1bfa149a685d4359a163c4256a801b82b57d
+SHA256: 4188736705760126d765c189d7cf5bf1ecbce0127a58cce7969ad2d354670314
+Section: 插件依赖
+Description: Color picker support library for tweaks
+Author: HASHBANG Productions
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=ws.hbang.alderis
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: Alderis Color Picker
+Sileodepiction: https://apt.otokaze.me/debs/ws.hbang.alderis.deb.json
+
+Package: ws.hbang.common
+Version: 1.16
+Architecture: iphoneos-arm
+Maintainer: Otokaze <i@otokaze.me>
+Installed-Size: 2012
+Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common.deb
+Size: 237076
+MD5sum: 1fd331a15bdd9c5dfaed0a7033814c2d
+SHA1: bd6d1afad1faffc29579a414998261dbe284bc70
+SHA256: 1059c0d69e88bab2215ba7f662e95319d409954fe6d875bf4692f460eec06e63
+Section: 插件依赖
+Priority: optional
+Description: hbang 公共依赖库
+Author: HASHBANG Productions
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=ws.hbang.common
+Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
+Name: Cephei
+Sileodepiction: https://apt.otokaze.me/debs/ws.hbang.common.deb.json
+

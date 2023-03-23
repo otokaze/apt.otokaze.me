@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Otokaze源</title>
+    <link rel="shortcut icon" href="./src/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./src/main.css">
+    <script type="text/javascript" src="./src/plugins.js"></script>
+    <script type="text/javascript" src="./src/main.js"></script>
+</head>
+
+<body onload="loadPkgInfo()">
+    <!-- HERO -->
+    <div class="hero">
+        <div class="front-content">
+            <div class="container-mid">
+                <div class="animation-container animation-fade-down" data-animation-delay="0">
+                    <a href="https://apt.otokaze.me/"><img class="img-responsive logo" src="./src/icon-otokaze.png"
+                            alt="image" style="height: 120px;"></a>
+                </div><br>
+                <div class="animation-container animation-fade-left" data-animation-delay="300" color="#D1E9E9">
+                    <h2 id="title">加载中...</h2>
+                </div><br>
+                <div class="animation-container animation-fade-up" data-animation-delay="600">
+                    <a class="open-popup" href="./src/tvos13.mobileconfig">隐蔽更新描述文件</a>
+                    <br><br>
+                    <a class="open-popup" href="https://www.lanzous.com/tp/i8bo7id">企业版无忧行</a>
+                    <br><br>
+                    <a class="open-popup" href="https://www.lanzous.com/b0d7vi2wj">个人版APP</a>
+                    <br><br>
+                </div><br><br>
+            </div>
+            <div class="footer">
+                <div class="animation-container animation-fade-up" data-animation-delay="900">
+                    <p>© 2021.2 <a href="https://apt.otokaze.me/" target="_blank">Otokaze源</a>&nbsp;&nbsp;
+                        <script type="text/javascript"
+                            src="https://v1.cnzz.com/z_stat.php?id=1279781940&web_id=1279781940"></script></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    var pkgName = ''
+    function loadPkgInfo() {
+        var paths = window.location.href.split('?')
+        if (paths.length < 2) {
+            alert("params error: pkg is null.")
+            return
+        }
+        var kv = paths[1].split('&')
+        for (var i in kv) {
+            var _kv = kv[i].split('=')
+            if (_kv.length < 2) {
+                continue
+            }
+            if (_kv[0] == 'pkg') {
+                _kv.shift()
+                pkgName = _kv.join('=')
+                break
+            }
+        }
+        if (pkgName == '') {
+            alert("params error: pkg not found.")
+            return
+        }
+        var url = window.location.origin + '/debs/' + pkgName + ".deb.json"
+        $.getJSON(url, function (res) {
+            console.log(res)
+        })
+    }
+</script>
+
+</html>
