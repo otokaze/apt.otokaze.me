@@ -795,6 +795,26 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Name: OTADisabler 屏蔽更新
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.otadisabler.deb.json
 
+Package: me.otokaze.perseus
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 520
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.udevs.vexillarius | org.me.vexillarius | firmware(<<14.0), com.rpetrich.rocketbootstrap (>= 1.0.2), com.opa334.altlist
+Filename: ./debs/me.otokaze.perseus.deb
+Size: 197760
+MD5sum: 5a9d82b139ef947c14de76fa56620374
+SHA1: 4d2b587f70969d42b3cf132cb4e6ec62e634b271
+SHA256: c4a0ee642d153a27075d6917d698c2b608313986ca116f8ab6356a885a25235d
+Section: 插件
+Description: 使用Apple Watch解锁iPhone
+Author: udevs
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.perseus
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Perseus快速解锁
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.perseus.deb.json
+Sponsor: Otokaze 个人源 <https://apt.otokaze.me/>
+
 Package: me.otokaze.simpleactivationactions
 Version: 0.1-1
 Architecture: iphoneos-arm
