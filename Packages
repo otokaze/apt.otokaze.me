@@ -211,6 +211,25 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.tr1fecta.backrunner
 Name: backrunner
 Sileodepiction: https://apt.otokaze.me/debs/com.tr1fecta.backrunner.deb.json
 
+Package: com.udevs.vexillarius
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 136
+Filename: ./debs/com.udevs.vexillarius.deb
+Size: 5648
+MD5sum: 868907d740738fb67aee0d3f2142b0ea
+SHA1: 5b38f03e3e8b6a9bddb20ae3dd4d7209f697cd55
+SHA256: 4bc8303acf0fd8f60c2eedb6d44680d4f6b30279f5b97d870c6cd25cc14661a3
+Section: System
+Description: Standard Bearer
+Tag: role::hacker
+Author: udevs
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.udevs.vexillarius
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
+Name: vexillarius
+Sileodepiction: https://apt.otokaze.me/debs/com.udevs.vexillarius.deb.json
+
 Package: fun.yfyf.bigbangev
 Version: 5.3.2
 Architecture: iphoneos-arm
