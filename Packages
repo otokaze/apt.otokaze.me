@@ -211,6 +211,24 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.tr1fecta.backrunner
 Name: backrunner
 Sileodepiction: https://apt.otokaze.me/debs/com.tr1fecta.backrunner.deb.json
 
+Package: com.udevs.perseus
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.udevs.vexillarius, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: ./debs/com.udevs.perseus.deb
+Size: 125728
+MD5sum: a8049b805517396b53436b1bf9684cdc
+SHA1: b13ecd2a0255a312836cfb3c9e5120048d841a14
+SHA256: 7ef34636f4df296526ae1d567bc4f5cdb2b27a4d5c32786dfa17803c3cabba81
+Section: Tweaks
+Description: Unlock iPhone with Apple Watch
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.perseus
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.png
+Name: Perseus
+
 Package: com.udevs.vexillarius
 Version: 0.0.3
 Architecture: iphoneos-arm

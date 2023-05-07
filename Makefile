@@ -9,8 +9,6 @@ update:
 	fi
 	@bzip2 Packages
 	@mv Packages.1 Packages
-	@gpg --armor --detach-sign --sign -o Release.gpg Release
-	@gpg --clearsign -o InRelease Release
 
 clean:
 	@find ./debs -name "*.old" -delete
