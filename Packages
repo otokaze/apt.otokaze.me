@@ -36,6 +36,30 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.34306.3dtools
 Name: 3DTools
 Sileodepiction: https://apt.otokaze.me/debs/com.34306.3dtools.deb.json
 
+Package: com.cydiageek.playmusiconrecord
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 497
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader
+Filename: ./debs/com.cydiageek.playmusiconrecord.deb
+Size: 86802
+MD5sum: b9a1bc4a1774514ebae1d45be9cff25e
+SHA1: 32047c98b2412678e41e7f9cbf253bf7bbb2a7a7
+SHA256: 146a4d227c4ba9c24577ab62df8e77d4b85ce7a6dfdfa4c9a07f8c936eb620b1
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
+Description: Disable Music/Audio from stopping when recording Videos!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.cydiageek.playmusiconrecord
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/PlayMusicOnRecord.bundle/PlayMusicOnRecord@2x.png
+Name: PlayMusicOnRecord
+Sileodepiction: https://apt.otokaze.me/debs/com.cydiageek.playmusiconrecord.deb.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.gamegod.igg
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -906,6 +930,25 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: Telegram Unlock 解锁封禁群
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
+
+Package: net.limneos.answeringmachinex
+Version: 1.2-32
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2388
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>=0.1-80) ,  firmware (>= 11.0)
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: ./debs/net.limneos.answeringmachinex.deb
+Size: 772920
+MD5sum: 4f24215e7defabe0d1b60539cc1e872e
+SHA1: 11a0ec96918d9d2a50767ef04ba0abc74e3fb914
+SHA256: 899b455b28563d8a9a433f12be6bf5c915560d6539c4f9af10adce53038cc5d0
+Section: Tweaks
+Description: AnsweringMachine XS (iOS 11/12/13)
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.limneos.answeringmachinex
+Name: AnsweringMachine XS
+Sileodepiction: https://apt.otokaze.me/debs/net.limneos.answeringmachinex.deb.json
 
 Package: preferenceloader
 Version: 2.2.5
