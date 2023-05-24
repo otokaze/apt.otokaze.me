@@ -932,23 +932,41 @@ Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
 
 Package: net.limneos.answeringmachinex
-Version: 1.2-32
+Version: 2.0-17
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 2388
-Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>=0.1-80) ,  firmware (>= 11.0)
+Installed-Size: 2464
+Depends: mobilesubstrate, preferenceloader, me.otokaze.limneosos, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
 Conflicts: net.limneos.audiorecorder (<= 1.7-4)
 Filename: ./debs/net.limneos.answeringmachinex.deb
-Size: 772920
-MD5sum: 4f24215e7defabe0d1b60539cc1e872e
-SHA1: 11a0ec96918d9d2a50767ef04ba0abc74e3fb914
-SHA256: 899b455b28563d8a9a433f12be6bf5c915560d6539c4f9af10adce53038cc5d0
+Size: 751362
+MD5sum: fb3a6b684f0bf8fdda42ed5a5fee9a55
+SHA1: 3bf404d3ba5d5e9991369fc14d1e4a948f10f4b1
+SHA256: 16372683b034473a22aae218db41256184e1b9404b616153d4fe6601823e9d2c
 Section: Tweaks
-Description: AnsweringMachine XS (iOS 11/12/13)
+Description: AnsweringMachine XS (iOS 11 to 16)
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.limneos.answeringmachinex
 Name: AnsweringMachine XS
 Sileodepiction: https://apt.otokaze.me/debs/net.limneos.answeringmachinex.deb.json
+
+Package: net.limneos.libbulletin
+Version: 0.1-178
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos
+Installed-Size: 348
+Depends: mobilesubstrate
+Filename: ./debs/net.limneos.libbulletin.deb
+Size: 57454
+MD5sum: ca0c40702c0f0c7190ec25c973009907
+SHA1: 86c52cc5a605c7d61f34efe07cfd3e4a781f5dff
+SHA256: a2319651374e1a23fe149514e4c7cfa5f78663db0bd501dcb61063031ae383ec
+Section: Tweaks
+Description: Simple library that displays bulletins
+Author: Elias Limneos
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.limneos.libbulletin
+Name: libbulletin
+Sileodepiction: https://apt.otokaze.me/debs/net.limneos.libbulletin.deb.json
 
 Package: preferenceloader
 Version: 2.2.5
