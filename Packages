@@ -96,6 +96,49 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.greg0109.quiet
 Name: Quiet
 Sileodepiction: https://apt.otokaze.me/debs/com.greg0109.quiet.deb.json
 
+Package: com.ichitaso.powerselector11
+Version: 1.3.9
+Architecture: iphoneos-arm
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2052
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11.deb
+Size: 374686
+MD5sum: 7f11fff86310c9cbff2f7823d1b630e0
+SHA1: bd4a0d043129333dd52c7e4e1927084ddbe4cb2f
+SHA256: f14dcb318d1a5e102ed59f232582ad871077e1216b5b86e4e91996e8287d8ad1
+Section: Utilities
+Homepage: https://cydia.ichitaso.com/depiction/powerselector11.html
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.3
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.ichitaso.powerselector11
+Dev: ichitaso
+Icon: https://cydia.ichitaso.com/icons/PowerSelector.png
+Name: PowerSelector
+Sileodepiction: https://apt.otokaze.me/debs/com.ichitaso.powerselector11.deb.json
+
+Package: com.julioverne.lowerinstall
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/com.julioverne.lowerinstall.deb
+Size: 94164
+MD5sum: ab3a4f7a865faffc2c389f9ebe05fefa
+SHA1: 3bb8e0ecf39a0e583ed7cb7d79a5db987c008bb5
+SHA256: d95d3d495a201d0f6d3eadbcce7859cc4957659e31869d21fceb028cb4a40419
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Install Apps In Lower iOS Version
+Author: julioverne
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.julioverne.lowerinstall
+Name: LowerInstall
+Sileodepiction: https://apt.otokaze.me/debs/com.julioverne.lowerinstall.deb.json
+
 Package: com.muirey03.libmryipc
 Version: 2.0
 Architecture: iphoneos-arm
@@ -936,19 +979,18 @@ Version: 2.0-17
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 2464
-Depends: mobilesubstrate, preferenceloader, me.otokaze.limneosos, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
 Conflicts: net.limneos.audiorecorder (<= 1.7-4)
-Filename: ./debs/net.limneos.answeringmachinex.deb
-Size: 751362
-MD5sum: fb3a6b684f0bf8fdda42ed5a5fee9a55
-SHA1: 3bf404d3ba5d5e9991369fc14d1e4a948f10f4b1
-SHA256: 16372683b034473a22aae218db41256184e1b9404b616153d4fe6601823e9d2c
+Filename: ./debs/net.limneos.answeringmachinex_2.0-17_iphoneos-arm.deb
+Size: 2440574
+MD5sum: 6b0f04d4bbe7eeec86814f8ba78b4d62
+SHA1: 0c9bf12113268f7de379cc968faf06141f185a49
+SHA256: 519dac394de1e58aae9f2f523dd1b3d887f11c9697085508befa1b0c1297d193
 Section: Tweaks
 Description: AnsweringMachine XS (iOS 11 to 16)
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.limneos.answeringmachinex
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.answeringmachinex
 Name: AnsweringMachine XS
-Sileodepiction: https://apt.otokaze.me/debs/net.limneos.answeringmachinex.deb.json
 
 Package: net.limneos.libbulletin
 Version: 0.1-178
@@ -956,17 +998,15 @@ Architecture: iphoneos-arm64
 Maintainer: Elias Limneos
 Installed-Size: 348
 Depends: mobilesubstrate
-Filename: ./debs/net.limneos.libbulletin.deb
-Size: 57454
-MD5sum: ca0c40702c0f0c7190ec25c973009907
-SHA1: 86c52cc5a605c7d61f34efe07cfd3e4a781f5dff
-SHA256: a2319651374e1a23fe149514e4c7cfa5f78663db0bd501dcb61063031ae383ec
+Filename: ./debs/net.limneos.libbulletin_0.1-178_iphoneos-arm64.deb
+Size: 36032
+MD5sum: 88f1780d5b3d4350d028a34a16d036cf
+SHA1: faa2bf112e019674e2954e248f1a7b55e09a7f0c
+SHA256: a2b656fa9b05c7a98e2905c931d14d4701d629d78f5fbbf37fd51486fe9708d3
 Section: Tweaks
 Description: Simple library that displays bulletins
 Author: Elias Limneos
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.limneos.libbulletin
 Name: libbulletin
-Sileodepiction: https://apt.otokaze.me/debs/net.limneos.libbulletin.deb.json
 
 Package: preferenceloader
 Version: 2.2.5
