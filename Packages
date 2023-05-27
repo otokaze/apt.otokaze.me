@@ -205,6 +205,23 @@ Name: CCSupport
 Sileodepiction: https://apt.otokaze.me/debs/com.opa334.ccsupport.deb.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.rileytestut.altdaemon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Filename: ./debs/com.rileytestut.altdaemon.deb
+Size: 833964
+MD5sum: 06901011f9828f7cec280063a14c876a
+SHA1: f0987a892f353f08087f8012a36b6df5f43b838e
+SHA256: 5472263126fb3425d8d5f210a41e1ee07f7957413ebb8121f95ec275fa621917
+Section: System
+Homepage: https://altstore.io
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Author: Riley Testut
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.rileytestut.altdaemon
+Name: AltDaemon
+Sileodepiction: https://apt.otokaze.me/debs/com.rileytestut.altdaemon.deb.json
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.10~beta1
 Architecture: iphoneos-arm
@@ -973,40 +990,6 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: Telegram Unlock 解锁封禁群
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
-
-Package: net.limneos.answeringmachinex
-Version: 2.0-17
-Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 2464
-Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
-Conflicts: net.limneos.audiorecorder (<= 1.7-4)
-Filename: ./debs/net.limneos.answeringmachinex_2.0-17_iphoneos-arm.deb
-Size: 2440574
-MD5sum: 6b0f04d4bbe7eeec86814f8ba78b4d62
-SHA1: 0c9bf12113268f7de379cc968faf06141f185a49
-SHA256: 519dac394de1e58aae9f2f523dd1b3d887f11c9697085508befa1b0c1297d193
-Section: Tweaks
-Description: AnsweringMachine XS (iOS 11 to 16)
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.answeringmachinex
-Name: AnsweringMachine XS
-
-Package: net.limneos.libbulletin
-Version: 0.1-178
-Architecture: iphoneos-arm64
-Maintainer: Elias Limneos
-Installed-Size: 348
-Depends: mobilesubstrate
-Filename: ./debs/net.limneos.libbulletin_0.1-178_iphoneos-arm64.deb
-Size: 36032
-MD5sum: 88f1780d5b3d4350d028a34a16d036cf
-SHA1: faa2bf112e019674e2954e248f1a7b55e09a7f0c
-SHA256: a2b656fa9b05c7a98e2905c931d14d4701d629d78f5fbbf37fd51486fe9708d3
-Section: Tweaks
-Description: Simple library that displays bulletins
-Author: Elias Limneos
-Name: libbulletin
 
 Package: preferenceloader
 Version: 2.2.5
