@@ -991,6 +991,27 @@ Name: Telegram Unlock 解锁封禁群
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
 
+Package: net.tetherme.tetherme8
+Version: 2.1.3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <support@tetherme.net>
+Installed-Size: 22912
+Pre-Depends: mobilesubstrate (>=0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<<99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debs/net.tetherme.tetherme8.deb
+Size: 9046118
+MD5sum: 99c514a3fa88382d93583b68c8004594
+SHA1: 38775c38984550ca00aa3e2d5bcdfd9969affbfe
+SHA256: 1d2d6ec065a40b73ac8d78b772a3c2566ef81a5abc01bd263497742b0f77ec6d
+Section: Networking
+Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
+Tag: purpose::extension
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.tetherme.tetherme8
+Name: TetherMe for iOS8+
+Sileodepiction: https://apt.otokaze.me/debs/net.tetherme.tetherme8.deb.json
+
 Package: preferenceloader
 Version: 2.2.5
 Architecture: iphoneos-arm
