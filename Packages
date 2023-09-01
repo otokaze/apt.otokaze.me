@@ -560,6 +560,28 @@ Name: AutoTouch触动精灵【破解版】
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.autotouch/depiction.json
 Sponsor: Otokaze源<http://apt.otokaze.me/>
 
+Package: me.otokaze.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Installed-Size: 244
+Depends: firmware (>= 13.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: NULLL
+Filename: ./debs/me.otokaze.backgrounderaction13.deb
+Size: 16552
+MD5sum: 833040ed84f3ba1e578d4ecf4840be6d
+SHA1: 5aef7785a368f14f12e92f0da66ed1844b2c33b0
+SHA256: 16a69ff49f50f1e3ce28bc4325993286afe0c7789bb09267a4c9404ab454a2e8
+Section: Tweaks
+Description: iOS13真实后台！在控制中心添加“真实后台”启动按钮,安装后到-设置-控制中心-添加真后台模块即可。⚠️使用方式:如要开启QQ的真后台  打开QQ后上滑控制中心  按下真后台模块按钮  当真后台模块按钮为橙黄色这表示已为此应用开启真后台,如想结束真后台  返回到你开启真后台的应用 上滑控制中心  按下真后台模块按钮  当真后台模块按钮为白色这表示已经关闭此应用真后台(你也可以直接划掉已开启真后台的应用来结束此应用后台+此应用的真后台)
+A12: 1
+Author: akusio
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.backgrounderaction13
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: BackgrounderAction2控制中心真后台
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.backgrounderaction13.deb.json
+Sponsor: Otokaze-Repo
+
 Package: me.otokaze.banana
 Version: 1.1.1
 Architecture: iphoneos-arm
