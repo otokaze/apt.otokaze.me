@@ -602,6 +602,27 @@ Name: Banana 自动降噪
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.banana/depiction.json
 Sponsor: Otokaze源 <http://apt.otokaze.me/>
 
+Package: me.otokaze.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/me.otokaze.batteryhealthenabler.deb
+Size: 8104
+MD5sum: 920c19af53ffa9d0ee3f72a516b2a844
+SHA1: 37cb869f2d569fb8cc05105c6a6a03282747cf12
+SHA256: fc33312f8c2d2352231d79a6ac8b2071337915c09335886ee456e633d34ff1f1
+Section: System
+Description: 更换电池后无法显示电池健康状况修复补丁。
+Author: PoomSmart
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.batteryhealthenabler
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Battery 电池健康修复
+Pushstar: 0
+Scs: 0
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.batteryhealthenabler.deb.json
+
 Package: me.otokaze.bioprotectxs
 Version: 4.4-55
 Architecture: iphoneos-arm
