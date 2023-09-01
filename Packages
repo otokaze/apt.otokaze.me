@@ -355,21 +355,6 @@ Name: BigBangEv
 Sileodepiction: https://apt.otokaze.me/debs/fun.yfyf.bigbangev.deb.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: jp.akusio.backgrounderaction13
-Version: 0.1.4
-Architecture: iphoneos-arm
-Maintainer: @_AppleExpert <aplerebornweb@gmail.com>
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/jp.akusio.backgrounderaction13.deb
-Size: 20394
-MD5sum: a8a74ec4267ef6efb4e154427f3221d4
-SHA1: bce933ce4afeb227e88ce1d19616c58941dc4263
-SHA256: c934bdd594a13d281cb0ffeec144dd9655a577cebd9209e403fb65ae39284224
-Section: Tweaks
-Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
-Author: akusio <akusio-report@neko2.net>
-Name: BackgrounderAction2 for CCSupport
-
 Package: jp.akusio.milkyway2
 Version: 0.2.0-alpha
 Architecture: iphoneos-arm
