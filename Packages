@@ -648,6 +648,25 @@ Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPrefe
 Name: CallBar XS（破解版）
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.callbarxs.deb.json
 
+Package: me.otokaze.disablealerts
+Version: 2.4.1
+Architecture: iphoneos-arm
+Maintainer: aReo
+Installed-Size: 260
+Depends: mobilesubstrate
+Filename: ./debs/me.otokaze.disablealerts.deb
+Size: 15842
+MD5sum: 9ff1a77e5ed00244270e15b49cbc4722
+SHA1: 82790542f6ef716cbfa6e67594d8fe70f171e1db
+SHA256: 1f15f2575fe5a2032106aa08b02dcc89e247fd6552fce8742a3de9d25d6c0288
+Section: 常用插件
+Description: 强效屏蔽软件和系统弹窗
+Author: aReo
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.disablealerts
+Icon: https://apt.wxhbts.pro/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: DisableAlerts 屏蔽弹窗
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.disablealerts.deb.json
+
 Package: me.otokaze.disableautomationnotice
 Version: 1.1-5
 Architecture: iphoneos-arm
