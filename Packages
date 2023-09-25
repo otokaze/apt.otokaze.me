@@ -789,6 +789,25 @@ Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
 Name: Flex 3 程序修改器
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.flex3.deb.json
 
+Package: me.otokaze.flextool
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Paul Bancarel
+Installed-Size: 4796
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/me.otokaze.flextool.deb
+Size: 1455840
+MD5sum: 54fea6a1e69f739f49cc9179a6aab14c
+SHA1: 50b283806776e61b19f74b7668cf523764af85ce
+SHA256: 9acff6b2e99469ef39d53799d454572df1be11e0b5087e5ed9b419883a9c1706
+Section: 必备插件
+Description: 一款应用视图抓取工具
+Author: Paul Bancarel
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.flextool
+Icon: https://apt.wxhbts.pro/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: FlexTool
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.flextool.deb.json
+
 Package: me.otokaze.ibreak.wecallkit
 Version: 1.1
 Architecture: iphoneos-arm
