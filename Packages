@@ -846,6 +846,27 @@ Name: 微信 Callkit 通话功能
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.ibreak.wecallkit.deb.json
 
 Package: me.otokaze.icleanerpro
+Version: 7.10.0k
+Architecture: iphoneos-arm
+Maintainer: Otokaze源 <i@otokaze.me>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/me.otokaze.icleanerpro.deb
+Size: 2555872
+MD5sum: 81d5ce53927a309095ebdf429cdb2303
+SHA1: 5a2ff50f2f9ffe4450a8941e1d34b6a842a78dee
+SHA256: 3f85a73480112bbe2a0f40ed2ee8fd3e49d5130a7b58315abd2e5d8abe4d73ac
+Section: 工具
+Description: iOS系统 垃圾清理 & 插件管理 工具
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.icleanerpro
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Name: iCleaner Pro 系统清理【破解版】
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.icleanerpro
+Sponsor: Otokaze源 <i@otokaze.me>
+
+Package: me.otokaze.icleanerpro
 Version: 7.9.1
 Architecture: iphoneos-arm
 Maintainer: Otokaze源 <i@otokaze.me>
