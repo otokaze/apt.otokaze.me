@@ -18,6 +18,24 @@ Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
 Name: AppList
 Sileodepiction: https://apt.otokaze.me/debs/applist.deb.json
 
+Package: com.0xkuj.3dappversionspoofer
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: 0xkuj
+Installed-Size: 440
+Depends: com.opa334.altlist
+Filename: ./debs/com.0xkuj.3dappversionspoofer.deb
+Size: 60580
+MD5sum: 982e71675973c4e107c561cd8ed144ab
+SHA1: f3cb982660c8559db116d70204e35227c706f7e2
+SHA256: d5ac753c8fd539bd2c1ecb5bf49ca299632f18abf5ca0ce4a9b46c0f4491570a
+Section: Tweaks
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Author: 0xkuj
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.0xkuj.3dappversionspoofer
+Name: 3DAppVersionSpoofer
+Sileodepiction: https://apt.otokaze.me/debs/com.0xkuj.3dappversionspoofer.deb.json
+
 Package: com.34306.3dtools
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -35,30 +53,6 @@ Author: 34306
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.34306.3dtools
 Name: 3DTools
 Sileodepiction: https://apt.otokaze.me/debs/com.34306.3dtools.deb.json
-
-Package: com.cydiageek.playmusiconrecord
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 497
-Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader
-Filename: ./debs/com.cydiageek.playmusiconrecord.deb
-Size: 86802
-MD5sum: b9a1bc4a1774514ebae1d45be9cff25e
-SHA1: 32047c98b2412678e41e7f9cbf253bf7bbb2a7a7
-SHA256: 146a4d227c4ba9c24577ab62df8e77d4b85ce7a6dfdfa4c9a07f8c936eb620b1
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
-Description: Disable Music/Audio from stopping when recording Videos!
-Tag: purpose::extension
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.cydiageek.playmusiconrecord
-Dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/PlayMusicOnRecord.bundle/PlayMusicOnRecord@2x.png
-Name: PlayMusicOnRecord
-Sileodepiction: https://apt.otokaze.me/debs/com.cydiageek.playmusiconrecord.deb.json
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.gamegod.igg
 Version: 0.1.1
@@ -160,25 +154,24 @@ Name: libMRYIPC
 Sileodepiction: https://apt.otokaze.me/debs/com.muirey03.libmryipc.deb.json
 
 Package: com.opa334.altlist
-Version: 1.0.7
+Version: 1.0.11
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 305
 Depends: firmware (>= 7.0)
 Filename: ./debs/com.opa334.altlist.deb
-Size: 46496
-MD5sum: 2709713fde07b9e8cf8b393fa8998589
-SHA1: 1b5baff8d488ee5fe3e7fc197fe0d797b36d1942
-SHA256: 80fb13e76319af1f8cc37d50b6def4c73138864040fd48fa3607a99b93bd36c3
+Size: 47212
+MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
+SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
+SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
 Tag: purpose::library
 Author: opa334 <opa334@protonmail.com>
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.opa334.altlist
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Dev: opa334
 Name: AltList
-Sileodepiction: https://apt.otokaze.me/debs/com.opa334.altlist.deb.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.ccsupport
@@ -648,25 +641,6 @@ Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPrefe
 Name: CallBar XS（破解版）
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.callbarxs.deb.json
 
-Package: me.otokaze.disablealerts
-Version: 2.4.1
-Architecture: iphoneos-arm
-Maintainer: aReo
-Installed-Size: 260
-Depends: mobilesubstrate
-Filename: ./debs/me.otokaze.disablealerts.deb
-Size: 15842
-MD5sum: 9ff1a77e5ed00244270e15b49cbc4722
-SHA1: 82790542f6ef716cbfa6e67594d8fe70f171e1db
-SHA256: 1f15f2575fe5a2032106aa08b02dcc89e247fd6552fce8742a3de9d25d6c0288
-Section: 常用插件
-Description: 强效屏蔽软件和系统弹窗
-Author: aReo
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.disablealerts
-Icon: https://apt.wxhbts.pro/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
-Name: DisableAlerts 屏蔽弹窗
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.disablealerts.deb.json
-
 Package: me.otokaze.disableautomationnotice
 Version: 1.1-5
 Architecture: iphoneos-arm
@@ -1077,27 +1051,6 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: Telegram Unlock 解锁封禁群
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
-
-Package: net.tetherme.tetherme8
-Version: 2.1.3
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <support@tetherme.net>
-Installed-Size: 22912
-Pre-Depends: mobilesubstrate (>=0.9.5101)
-Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<<99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: net.tetherme.tetherme
-Replaces: net.tetherme.tetherme
-Filename: ./debs/net.tetherme.tetherme8.deb
-Size: 9046118
-MD5sum: 99c514a3fa88382d93583b68c8004594
-SHA1: 38775c38984550ca00aa3e2d5bcdfd9969affbfe
-SHA256: 1d2d6ec065a40b73ac8d78b772a3c2566ef81a5abc01bd263497742b0f77ec6d
-Section: Networking
-Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
-Tag: purpose::extension
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=net.tetherme.tetherme8
-Name: TetherMe for iOS8+
-Sileodepiction: https://apt.otokaze.me/debs/net.tetherme.tetherme8.deb.json
 
 Package: preferenceloader
 Version: 2.2.5
