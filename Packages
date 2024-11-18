@@ -541,14 +541,15 @@ Sponsor: Otokaze源<http://apt.otokaze.me/>
 Package: me.otokaze.backgrounderaction13
 Version: 0.1.4
 Architecture: iphoneos-arm
+Maintainer: opa334
 Installed-Size: 244
 Depends: firmware (>= 13.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: NULLL
 Filename: ./debs/me.otokaze.backgrounderaction13.deb
-Size: 16552
-MD5sum: 833040ed84f3ba1e578d4ecf4840be6d
-SHA1: 5aef7785a368f14f12e92f0da66ed1844b2c33b0
-SHA256: 16a69ff49f50f1e3ce28bc4325993286afe0c7789bb09267a4c9404ab454a2e8
+Size: 10678
+MD5sum: b8e457063f1cfe9ad361e7ecada3e26f
+SHA1: 2796786004f0405ac2c01d95378f3dca17149d51
+SHA256: a9215b2a6185d0481db074c171aa9792b1091e93b594f165d30d1efecf2d9d02
 Section: Tweaks
 Description: iOS13真实后台！在控制中心添加“真实后台”启动按钮,安装后到-设置-控制中心-添加真后台模块即可。⚠️使用方式:如要开启QQ的真后台  打开QQ后上滑控制中心  按下真后台模块按钮  当真后台模块按钮为橙黄色这表示已为此应用开启真后台,如想结束真后台  返回到你开启真后台的应用 上滑控制中心  按下真后台模块按钮  当真后台模块按钮为白色这表示已经关闭此应用真后台(你也可以直接划掉已开启真后台的应用来结束此应用后台+此应用的真后台)
 A12: 1
@@ -587,11 +588,11 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
 Filename: ./debs/me.otokaze.batteryhealthenabler.deb
-Size: 8104
-MD5sum: 920c19af53ffa9d0ee3f72a516b2a844
-SHA1: 37cb869f2d569fb8cc05105c6a6a03282747cf12
-SHA256: fc33312f8c2d2352231d79a6ac8b2071337915c09335886ee456e633d34ff1f1
-Section: System
+Size: 6378
+MD5sum: 500c0aea39f41b1ca61ac4f024c7e472
+SHA1: db8a8e91771b1d583960c1b0d0c435d4ac243593
+SHA256: 967b78ba9e04213b0019307bc1a5ae7ece9027bb92b8f099eee7a54297800d3b
+Section: 插件
 Description: 更换电池后无法显示电池健康状况修复补丁。
 Author: PoomSmart
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.batteryhealthenabler
@@ -600,6 +601,7 @@ Name: Battery 电池健康修复
 Pushstar: 0
 Scs: 0
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.batteryhealthenabler.deb.json
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.love/>
 
 Package: me.otokaze.bioprotectxs
 Version: 4.4-55
@@ -827,39 +829,18 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/me.otokaze.icleanerpro.deb
-Size: 2555872
-MD5sum: 81d5ce53927a309095ebdf429cdb2303
-SHA1: 5a2ff50f2f9ffe4450a8941e1d34b6a842a78dee
-SHA256: 3f85a73480112bbe2a0f40ed2ee8fd3e49d5130a7b58315abd2e5d8abe4d73ac
+Size: 2119164
+MD5sum: 138dbccfe66dabc97cabd3330e6eb96c
+SHA1: 979d1720dfe260693233ef7e87507b361d006d39
+SHA256: b3b11dc8de25336c0ba1935d886b5c2d5ca9386b20d0f90c6d5fa66164dd3007
 Section: 工具
 Description: iOS系统 垃圾清理 & 插件管理 工具
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.icleanerpro
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: iCleaner Pro 系统清理【破解版】
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.icleanerpro
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.icleanerpro.deb.json
 Sponsor: Otokaze源 <i@otokaze.me>
-
-Package: me.otokaze.icleanerpro
-Version: 7.9.1
-Architecture: iphoneos-arm
-Maintainer: Otokaze源 <i@otokaze.me>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/me.otokaze.icleanerpro/me.otokaze.icleanerpro.deb
-Size: 2929580
-MD5sum: cfef93993e3c41404b06d927b0780405
-SHA1: fe043418ae244c381191a8339c2a1697d4f31faf
-SHA256: 7d328d2968fc3f5e067551f3f4ea2b93065da9a6d736ba81cb8970d71e7b220e
-Section: 工具
-Description: iOS系统 垃圾清理 & 插件管理 工具
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.icleanerpro
-Icon: https://apt.otokaze.me/debs/me.otokaze.icleanerpro/icon.png
-Name: iCleaner Pro 系统清理【破解版】
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.icleanerpro/depiction.json
-Sponsor: Otokaze源 <https://apt.otokaze.me/>
 
 Package: me.otokaze.killxpro
 Version: 2.1.2
@@ -918,6 +899,25 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.localiapstore13
 Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Name: LocalIAPStore13 内购破解
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.localiapstore13.deb.json
+
+Package: me.otokaze.locationfaker8
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Cunstuck
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx
+Filename: ./debs/me.otokaze.locationfaker8.deb
+Size: 395708
+MD5sum: 1b1e200e243d5472e9cff76a526c8bfa
+SHA1: 7b7da2bdb2a95e2d540d5db9cc062e902a2aeb00
+SHA256: 159640bb2ec481bbe287dbac7df624d15e9a53d8c9e0a3111b505c5252740f94
+Section: 常用插件
+Description: 虚拟定位 指定手机到任意位置
+Author: Cunstuck
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.locationfaker8
+Icon: https://apt.wxhbts.pro/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: LocationFaker 虚拟定位
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.locationfaker8.deb.json
 
 Package: me.otokaze.lockapps
 Version: 2.0-3
@@ -1051,6 +1051,45 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: Telegram Unlock 解锁封禁群
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.telegramunlock/depiction.json
 Sponsor: Otokaze源 <https://apt.otokaze.me/>
+
+Package: me.otokaze.tetherme8
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: Otokaze源 <i@otokaze.me>
+Installed-Size: 2300
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debs/me.otokaze.tetherme8.deb
+Size: 88484
+MD5sum: 412dd75d21f769bd107a8b6663669e5e
+SHA1: 4d87242b4b05054e4935bdceeda1aa4279babe46
+SHA256: d3ece423d8d2c9c49d8cf40fff23b349a7301178ff5f819e1469559dbc0f793e
+Section: 插件
+Description: 自定义 APN 与 网络共享方式
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Sam Bingner <support@tetherme.net>
+Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.tetherme8
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: TetherMe 热点共享增强
+Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.tetherme8.deb.json
+Sponsor: Otokaze源 <i@otokaze.me>
+
+Package: me.tomt000.copylog
+Version: 1.5.6
+Architecture: iphoneos-arm
+Maintainer: TomT000
+Installed-Size: 4460
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/me.tomt000.copylog_1.5.6_iphoneos-arm.deb
+Size: 1564488
+MD5sum: 20781117072ef6ced89b0154c1280602
+SHA1: 519724a560f660ef53f0b6bf93c79cec5d27e368
+SHA256: e91556ac47c0c3ea9ec826183847a1df3a645cb48366138c6f851251429e721b
+Section: Tweaks
+Description: Clipboard history manager for iOS!
+Author: TomT000
+Name: CopyLog
 
 Package: preferenceloader
 Version: 2.2.5
