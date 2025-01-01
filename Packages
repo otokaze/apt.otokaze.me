@@ -793,9 +793,9 @@ Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/me.otokaze.icleanerpro.deb
 Size: 2119044
-MD5sum: 5b0db5717c411bdf46a426c3f41c5247
-SHA1: 172886bf5f8a6f305d76b979b99d1fb075d1d243
-SHA256: 729bda80199869fe4e34aa70c52bc03eb503ac8e25e1bacf70b3b9175d14f984
+MD5sum: c45fe1eea6b6d7ed7fe0d3e45441edff
+SHA1: e7f822fd4ac79b5b9313fb0557db1cd0092730b2
+SHA256: 7f32cf16fa043c2bcff234835caba4911e4f1e13e1def27c5c97e7835f62b380
 Section: 工具
 Description: iOS系统 垃圾清理 & 插件管理 工具
 Author: Ivano Bilenchi <support@ib-soft.net>
