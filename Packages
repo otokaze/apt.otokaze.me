@@ -54,6 +54,25 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.34306.3dtools
 Name: 3DTools
 Sileodepiction: https://apt.otokaze.me/debs/com.34306.3dtools.deb.json
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/me.otokaze.appstoreplus.deb
+Size: 4636364
+MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
+SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
+SHA256: 23bb2021da9b3fdaf5d947490f8ebff5c947d71a6966bf70e43c025c4916c8c7
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++
+
 Package: com.gamegod.igg
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -382,25 +401,6 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Name: 3DBadgeClear 清理角标
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.3dbadgeclear.deb.json
 
-Package: me.otokaze.a-bypass
-Version: 1.5.2
-Architecture: iphoneos-arm
-Maintainer: Baw Appie
-Installed-Size: 844
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
-Filename: ./debs/me.otokaze.a-bypass.deb
-Size: 97932
-MD5sum: b0f8687633c32f851e56f9f64f5db77d
-SHA1: 818b401e64bd83aed0e30e191f2da060b8966dde
-SHA256: 6460126bc344f97214a918570cc5e695962e9e37bcede7b2110055f40864c7d8
-Section: 常用插件
-Description: 一款强力有效 简单设置的屏蔽越狱插件
-Author: Baw Appie
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.a-bypass
-Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
-Name: A-Bypass 屏蔽越狱
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.a-bypass.deb.json
-
 Package: me.otokaze.adsspee
 Version: 1.0.4-1
 Architecture: iphoneos-arm
@@ -418,43 +418,6 @@ Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.adsspee
 Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Name: VideoAdsSpeed 快速跳过广告
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.adsspee.deb.json
-
-Package: me.otokaze.appstoreplus
-Version: 0.9.14-2
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap, me.otokaze.appstorepluscn
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/me.otokaze.appstoreplus.deb
-Size: 560756
-MD5sum: 92483759ac65c307ab87540f172692b3
-SHA1: cb3fe46cfe70999880b0871b6363680adf1f3a65
-SHA256: 3454a020ca8bd02eb883e356d3c71fb25fcf1e339641b10293424ea7854a5540
-Section: 常用插件
-Description: App Store应用降级 比AppAdmin更稳定
-Author: CokePokes
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.appstoreplus
-Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
-Name: AppStore 降级工具
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.appstoreplus.deb.json
-
-Package: me.otokaze.appstorepluscn
-Version: 0.0.3
-Architecture: iphoneos-arm
-Maintainer: Otokaze <i@otokaze.me>
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/me.otokaze.appstorepluscn.deb
-Size: 35644
-MD5sum: 3d92517c7c6c96d2d1f42fcbed7e96a1
-SHA1: 14310c08f85120faec8943fa8bf37c2560b4c4f9
-SHA256: d43fe64464ca8200a5e331371a01503f54e3504aed3d86fe820b48afe8c98533
-Section: 常用插件
-Description: AppStore Plus 简体中文汉化包
-Author: Otokaze <i@otokaze.me>
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.appstorepluscn
-Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
-Name: AppStore 简体中文包
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.appstorepluscn.deb.json
 
 Package: me.otokaze.appsyncunified
 Version: 90.0
@@ -829,10 +792,10 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/me.otokaze.icleanerpro.deb
-Size: 2119168
-MD5sum: 57b8e18ae321d49b8c9071dea58d3928
-SHA1: c386abe652e91175bcd0d28f60c150452d09ba46
-SHA256: 35e56bf7d662066b1de757fcd6a6238e163e665a6c104f1899dc1e36d8f07756
+Size: 2120636
+MD5sum: 7db983423f0485c840aca227779ddf5a
+SHA1: cc8fede1c9495be6ee4d62922858fa17f42dce91
+SHA256: 9a2a9f4e2396bab846f3aa260a05a97b18b29f6cbae0452b25b60de34f2d8589
 Section: 工具
 Description: iOS系统 垃圾清理 & 插件管理 工具
 Author: Ivano Bilenchi <support@ib-soft.net>
