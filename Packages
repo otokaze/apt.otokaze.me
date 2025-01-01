@@ -792,10 +792,10 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/me.otokaze.icleanerpro.deb
-Size: 2120636
-MD5sum: 7db983423f0485c840aca227779ddf5a
-SHA1: cc8fede1c9495be6ee4d62922858fa17f42dce91
-SHA256: 9a2a9f4e2396bab846f3aa260a05a97b18b29f6cbae0452b25b60de34f2d8589
+Size: 2120476
+MD5sum: 6212e4153027e18beb0626d4d8333ebb
+SHA1: a92c4b479fa3273f6a4c8d07425ffb0cc9d811ac
+SHA256: 3370df4e7968f55aae9d1cdb1874f8855bb3a2a083281527278fee6504f4eaaa
 Section: 工具
 Description: iOS系统 垃圾清理 & 插件管理 工具
 Author: Ivano Bilenchi <support@ib-soft.net>
