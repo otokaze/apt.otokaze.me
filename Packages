@@ -18,23 +18,36 @@ Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
 Name: AppList
 Sileodepiction: https://apt.otokaze.me/debs/applist.deb.json
 
+Package: com.0xilis.letmepass
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Snoolie K
+Installed-Size: 200
+Filename: ./debs/com.0xilis.letmepass_1.5_iphoneos-arm.deb
+Size: 3694
+MD5sum: d5dbd6ce6999cef8e456b9888f7f7db0
+SHA1: 97ecbffd7ec5f57339cd6452ff35b54e52afcc1a
+SHA256: 9535ff9de6630220e214c769d744142778793752626cb5790640d12f8b01e6c2
+Section: Tweaks
+Description: Bypasses YouTube's version alert
+Author: Snoolie K
+Name: LetMePass
+
 Package: com.0xkuj.3dappversionspoofer
-Version: 2.0.3
+Version: 1.1.4
 Architecture: iphoneos-arm
 Maintainer: 0xkuj
-Installed-Size: 440
-Depends: com.opa334.altlist
-Filename: ./debs/com.0xkuj.3dappversionspoofer.deb
-Size: 60580
-MD5sum: 982e71675973c4e107c561cd8ed144ab
-SHA1: f3cb982660c8559db116d70204e35227c706f7e2
-SHA256: d5ac753c8fd539bd2c1ecb5bf49ca299632f18abf5ca0ce4a9b46c0f4491570a
+Installed-Size: 396
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: ./debs/com.0xkuj.3dappversionspoofer_1.1.4_iphoneos-arm.deb
+Size: 54744
+MD5sum: d0b7af3fcde903691e34445b7a6ec732
+SHA1: 15107311beb55e1fecac4412a6d3eea838cdf587
+SHA256: c364cb046c9de952aa2e33e0bfd4e5b93163ed2759da9c4aa0bae79bdcce2d16
 Section: Tweaks
 Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
 Author: 0xkuj
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.0xkuj.3dappversionspoofer
 Name: 3DAppVersionSpoofer
-Sileodepiction: https://apt.otokaze.me/debs/com.0xkuj.3dappversionspoofer.deb.json
 
 Package: com.34306.3dtools
 Version: 1.0.6
@@ -53,6 +66,26 @@ Author: 34306
 Depiction: https://apt.otokaze.me/web/detail.html?pkg=com.34306.3dtools
 Name: 3DTools
 Sileodepiction: https://apt.otokaze.me/debs/com.34306.3dtools.deb.json
+
+Package: com.BIENVANNHAT.strongerfi12-14
+Version: 1.0.0~beta5
+Architecture: iphoneos-arm
+Maintainer: Biện Văn Nhật
+Installed-Size: 412
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.strongerfi
+Filename: ./debs/com.strongerfi12-14_1.0.0~beta5_iphoneos-arm.deb
+Size: 86208
+MD5sum: 5d089a559f4b81b3e5cee4787ab682bd
+SHA1: bb82935d20fe19c434e55882adcb75f205535819
+SHA256: ae06723c294a0eb2d3fbb2902ae0e3528f824b871789762c3463e12ae9c8ca39
+Section: Tweaks
+Description: Tự động chuyển sang Mạng WiFi mạnh nhất.
+Author: tateu (Josh Harris) <tateu@tateu.net>
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/StrongerFi12-14/?p=info
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Name: StrongerFi12-14
+Sileodepiction: http://bvnsupport-jailbreak.github.io/infodeb/StrongerFi12-14/?p=info
 
 Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
@@ -573,10 +606,10 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
 Filename: ./debs/me.otokaze.batteryhealthenabler.deb
-Size: 6378
-MD5sum: 500c0aea39f41b1ca61ac4f024c7e472
-SHA1: db8a8e91771b1d583960c1b0d0c435d4ac243593
-SHA256: 967b78ba9e04213b0019307bc1a5ae7ece9027bb92b8f099eee7a54297800d3b
+Size: 5816
+MD5sum: 4c5065d3069cf9358a8c3d7a26b2a096
+SHA1: 408f422a7c465264a961ae470eedde3e75ce1657
+SHA256: 6ec3414a09465fd2e6fb780adf40d93850368256c6c07b3b4d2513884fd8cfd6
 Section: 插件
 Description: 更换电池后无法显示电池健康状况修复补丁。
 Author: PoomSmart
@@ -1117,22 +1150,23 @@ Name: Alderis Color Picker
 Sileodepiction: https://apt.otokaze.me/debs/ws.hbang.alderis.deb.json
 
 Package: ws.hbang.common
-Version: 1.16
+Version: 1.17.1
 Architecture: iphoneos-arm
-Maintainer: Otokaze <i@otokaze.me>
-Installed-Size: 2012
-Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common.deb
-Size: 237076
-MD5sum: 1fd331a15bdd9c5dfaed0a7033814c2d
-SHA1: bd6d1afad1faffc29579a414998261dbe284bc70
-SHA256: 1059c0d69e88bab2215ba7f662e95319d409954fe6d875bf4692f460eec06e63
-Section: 插件依赖
-Priority: optional
-Description: hbang 公共依赖库
-Author: HASHBANG Productions
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=ws.hbang.common
-Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
-Name: Cephei
-Sileodepiction: https://apt.otokaze.me/debs/ws.hbang.common.deb.json
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.17.1_iphoneos-arm.deb
+Size: 208096
+MD5sum: a1a27d51f93da4262059fe937e025f35
+SHA1: d546e6520c107d8fa6e748c97244dcdbf38603ad
+SHA256: dca96478c832a552b35e77afa7b4950c66a00a06e0e467006b543adcaa2e92d0
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Dev: hbang
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
