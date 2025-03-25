@@ -1128,6 +1128,44 @@ Icon: https://apt.wxhbts.com/icon/%E6%8F%92%E4%BB%B6%E4%BE%9D%E8%B5%96.png
 Name: PreferenceLoader
 Sileodepiction: https://apt.otokaze.me/debs/preferenceloader.deb.json
 
+Package: ru.rejail.graphite
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1012
+Depends: firmware(>=13.0)
+Conflicts: com.muris.libgraphite
+Filename: ./debs/ru.rejail.graphite_1.1.2_iphoneos-arm.deb
+Size: 133422
+MD5sum: f72b1261434a6f88d0f7e2aa66a1ec48
+SHA1: 4aed2195f2b9edb287eaec790d7c351f1fb9217f
+SHA256: 837bd06ef00dd0028b2155648a2899b3862f3a65f7a5d206e2a3fce04feca0e9
+Section: Development
+Description: powerful library for iOS development
+Author: Geometric Software
+Depiction: https://rejail.ru/depiction.php?file=graphite
+Name: Graphite Library
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=graphite
+
+Package: ru.rejail.lendmyphone3
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 7484
+Depends: mobilesubstrate, ru.rejail.graphite(>=1.1.1), firmware(>=13.0), firmware(<<14.0), preferenceloader
+Filename: ./debs/ru.rejail.lendmyphone3_1.0.1_iphoneos-arm.deb
+Size: 7120670
+MD5sum: 00a5ad496bace546e0139d9db338f949
+SHA1: 8488e5a5d5467d85309a7e4cb0ecc0c5f3f6e60f
+SHA256: f7a7b42b42976d3c2aad3504a402f210335fef901f475a84834fc6284d619d81
+Section: Tweaks
+Description: Гостевой режим системы
+Author: Geometric Software
+Depiction: https://rejail.ru/depiction.php?file=lendmyphone3
+Icon: https://cdn.geometricsoftware.se/packages/icons/se.geometric.lendmyphone3.png
+Name: LendMyPhone 3
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=lendmyphone3
+
 Package: ws.hbang.alderis
 Version: 1.0.1
 Architecture: iphoneos-arm
