@@ -148,6 +148,26 @@ Icon: file:///Library/PreferenceBundles/safarios13.bundle/icon@2x.png
 Name: Safari 13 浏览器增强
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.cydiami.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/com.cydiami.batteryhealthenabler.deb
+Size: 5118
+MD5sum: 3b493e81c72f60a0631f65130cbd02cd
+SHA1: 5ffb1eca436f53bd307b11398a60d9313712ead3
+SHA256: c0bbb8f4db07aad7df1e5818b1dd8cb100b6513559c59ea16e5a58ade6c97cac
+Section: 插件
+Description: 更换电池后无法显示电池健康状况修复补丁。
+Author: PoomSmart
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Battery 电池健康修复
+Pushstar: 0
+Scs: 0
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.love/>
+
 Package: com.gamegod.igg
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -618,28 +638,6 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: Banana 自动降噪
 Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.banana/depiction.json
 Sponsor: Otokaze源 <http://apt.otokaze.me/>
-
-Package: me.otokaze.batteryhealthenabler
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
-Filename: ./debs/me.otokaze.batteryhealthenabler.deb
-Size: 5790
-MD5sum: 6ca009f9b92ebd3bf469c57983b0d50a
-SHA1: f294bb5246e4b4d4631ca49d2c28cf45a7392d8f
-SHA256: 181e483d7809ae4122db5ca250eff74d3250930a740a9dfe7eeb145594508912
-Section: 插件
-Description: 更换电池后无法显示电池健康状况修复补丁。
-Author: PoomSmart
-Depiction: https://apt.otokaze.me/web/detail.html?pkg=me.otokaze.batteryhealthenabler
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: Battery 电池健康修复
-Pushstar: 0
-Scs: 0
-Sileodepiction: https://apt.otokaze.me/debs/me.otokaze.batteryhealthenabler.deb.json
-Sponsor: Ant 蚂蚁源™ <https://apt.cydia.love/>
 
 Package: me.otokaze.bioprotectxs
 Version: 4.4-55
