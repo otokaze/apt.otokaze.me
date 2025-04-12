@@ -1097,10 +1097,10 @@ Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | ne
 Conflicts: net.tetherme.tetherme
 Replaces: net.tetherme.tetherme
 Filename: ./debs/me.otokaze.tetherme8.deb
-Size: 88484
-MD5sum: 412dd75d21f769bd107a8b6663669e5e
-SHA1: 4d87242b4b05054e4935bdceeda1aa4279babe46
-SHA256: d3ece423d8d2c9c49d8cf40fff23b349a7301178ff5f819e1469559dbc0f793e
+Size: 88324
+MD5sum: 81135c9241f8941f104671d4baa9e593
+SHA1: 72166525503dd894d04053f650883a84e16de8a3
+SHA256: 040640cb088ccb018ddc40e86c540ac8894503a88d3a5865e7631ccfc94fdee3
 Section: 插件
 Description: 自定义 APN 与 网络共享方式
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11

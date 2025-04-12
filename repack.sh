@@ -20,6 +20,7 @@ repack() {
     mv $1 $1.old
     # repack
     find ./.repack -name '.DS_Store' -type f -delete
+    find ./.repack -name '@eaDir' -exec rm -rf {} +
     dpkg-deb -b ./.repack $(dirname $1)/$pkg.deb
 }
 
